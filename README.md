@@ -23,3 +23,4 @@ module "example" {
   name_prefix   = "app"
   resource_type = "bucket"
 }
+```
