@@ -12,3 +12,7 @@ resource "aws_s3_bucket" "example" {
     Project     = "naming-test"
   }
 }
+
+module "foo" {
+  source = "./foo"
+}
